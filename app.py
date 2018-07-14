@@ -9,7 +9,7 @@ def fb_send(mesg):
 
     print('Own id: {}'.format(client.uid))
 
-    thread_id = '1711719408946074'
+    thread_id = '2246840635356131'
     thread_type = ThreadType.GROUP
 
     client.send(Message(text=mesg), thread_id=thread_id, thread_type=thread_type)
@@ -22,7 +22,7 @@ def bot_run():
     elif LunarConvert.nextday(2).day == 15 or LunarConvert.nextday(2).day == 1:
         print("Ngày mai ngày %d ăn chay nhé ahihi" % (LunarConvert.nextday(1).day))
         fb_send("Ngày mai ngày %d ăn chay nhé ahihi" % (LunarConvert.nextday(1).day))
-    else
+    else:
         print("Free task today!!!")
 
 def bot_test():
