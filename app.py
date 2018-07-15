@@ -31,7 +31,7 @@ def bot_test():
 
 
 
-
+bot_run()
 
 # print(LunarConvert.nextday(0).day)
 # while True:
