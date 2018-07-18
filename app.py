@@ -28,13 +28,3 @@ def bot_run():
 def bot_test():
     fb_send("ahihi test thoi nhé")
 
-
-
-
-bot_run()
-
-# print(LunarConvert.nextday(0).day)
-# while True:
-#     if LunarConvert.nextday(1).day == 15 or LunarConvert.nextday(1).day == 1:
-#         print("Ngày mai ăn chay nhé ahihi")
-#         fb_send("Ahihi")
